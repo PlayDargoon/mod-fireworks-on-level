@@ -75,7 +75,7 @@ public:
     {
         // Announce Module
         if (sConfigMgr->GetOption<bool>("CustomServer.Announce", true))
-            ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00Custom Server |rmodule.");
+            ChatHandler(player->GetSession()).SendSysMessage("На этом сервере работает модуль |cff4CFF00Custom Server|r.");
     }
 
     void OnPlayerLevelChanged(Player * player, uint8 oldLevel) override
